@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManager.Api", "DataMana
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RetailManager.Database", "RetailManager.Database\RetailManager.Database.sqlproj", "{DAE5F990-6DA9-47EC-A0A9-438F61347D1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManager.DesktopUI", "RetailManager.DesktopUI\RetailManager.DesktopUI.csproj", "{7E48446F-9C18-4B5C-A0F4-811E70EC848C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{DAE5F990-6DA9-47EC-A0A9-438F61347D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAE5F990-6DA9-47EC-A0A9-438F61347D1A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAE5F990-6DA9-47EC-A0A9-438F61347D1A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7E48446F-9C18-4B5C-A0F4-811E70EC848C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E48446F-9C18-4B5C-A0F4-811E70EC848C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E48446F-9C18-4B5C-A0F4-811E70EC848C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E48446F-9C18-4B5C-A0F4-811E70EC848C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
