@@ -1,4 +1,4 @@
-namespace DataManager.Areas.HelpPage.ModelDescriptions
+namespace DataManager.Api.Areas.HelpPage.ModelDescriptions
 {
     public class SimpleTypeModelDescription : ModelDescription
     {

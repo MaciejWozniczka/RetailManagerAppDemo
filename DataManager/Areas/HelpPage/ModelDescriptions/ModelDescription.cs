@@ -1,6 +1,6 @@
 using System;
 
-namespace DataManager.Areas.HelpPage.ModelDescriptions
+namespace DataManager.Api.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

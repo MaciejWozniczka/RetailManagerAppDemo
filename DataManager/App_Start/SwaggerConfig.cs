@@ -1,11 +1,11 @@
 using System.Web.Http;
 using WebActivatorEx;
-using DataManager;
+using DataManager.Api;
 using Swashbuckle.Application;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace DataManager
+namespace DataManager.Api
 {
     public class SwaggerConfig
     {

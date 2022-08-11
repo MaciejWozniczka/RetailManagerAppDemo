@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using DataManager.Areas.HelpPage.ModelDescriptions;
-using DataManager.Areas.HelpPage.Models;
+using DataManager.Api.Areas.HelpPage.ModelDescriptions;
+using DataManager.Api.Areas.HelpPage.Models;
 
-namespace DataManager.Areas.HelpPage
+namespace DataManager.Api.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

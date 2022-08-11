@@ -13,11 +13,11 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using DataManager.Models;
-using DataManager.Providers;
-using DataManager.Results;
+using DataManager.Api.Models;
+using DataManager.Api.Providers;
+using DataManager.Api.Results;
 
-namespace DataManager.Controllers
+namespace DataManager.Api.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

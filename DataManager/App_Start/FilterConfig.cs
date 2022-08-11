@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace DataManager
+namespace DataManager.Api
 {
     public class FilterConfig
     {

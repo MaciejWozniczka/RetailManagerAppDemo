@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.AspNet.Identity;
 
-namespace DataManager.Controllers
+namespace DataManager.Api.Controllers
 {
     [Authorize]
     public class ValuesController : ApiController

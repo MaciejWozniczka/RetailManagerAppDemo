@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace DataManager.Models
+namespace DataManager.Api.Models
 {
     // Models used as parameters to AccountController actions.
 
