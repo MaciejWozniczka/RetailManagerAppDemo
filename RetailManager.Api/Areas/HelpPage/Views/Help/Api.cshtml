@@ -1,6 +1,11 @@
 @using System.Web.Http
-@using DataManager.Api.Areas.HelpPage.ModelDescriptions
-@model ModelDescription
+@using RetailManager.Api.Areas.HelpPage.Models
+@model HelpPageApiModel
+
+@{
+    var description = Model.ApiDescription;
+    ViewBag.Title = description.HttpMethod.Method + " " + description.RelativePath;
+}
 
 <link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
 <div id="body" class="help-page">
@@ -11,9 +16,7 @@
             </p>
         </div>
     </section>
-    <h1>@Model.Name</h1>
-    <p>@Model.Documentation</p>
     <section class="content-wrapper main-content clear-fix">
-        @Html.DisplayFor(m => Model)
+        @Html.DisplayForModel()
     </section>
 </div>

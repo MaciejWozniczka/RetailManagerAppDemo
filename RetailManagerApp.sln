@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManager.DesktopUI", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManager.Library", "RetailManager.Library\RetailManager.Library.csproj", "{B5281C28-102A-4130-BAA8-81C4E27B2CF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManager.Api", "DataManager\RetailManager.Api.csproj", "{E53D7F97-2B1E-4B1A-94B8-B0B215AF06CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManager.Api", "RetailManager.Api\RetailManager.Api.csproj", "{E53D7F97-2B1E-4B1A-94B8-B0B215AF06CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
