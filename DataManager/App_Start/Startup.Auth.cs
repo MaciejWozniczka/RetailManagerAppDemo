@@ -8,10 +8,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using DataManager.Api.Providers;
-using DataManager.Api.Models;
+using RetailManager.Api.Providers;
+using RetailManager.Api.Models;
 
-namespace DataManager.Api
+namespace RetailManager.Api
 {
     public partial class Startup
     {

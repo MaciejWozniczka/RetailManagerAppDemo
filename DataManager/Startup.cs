@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(DataManager.Api.Startup))]
+[assembly: OwinStartup(typeof(RetailManager.Api.Startup))]
 
-namespace DataManager.Api
+namespace RetailManager.Api
 {
     public partial class Startup
     {

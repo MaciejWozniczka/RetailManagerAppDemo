@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace DataManager.Api.Areas.HelpPage.ModelDescriptions
+namespace RetailManager.Api.Areas.HelpPage.ModelDescriptions
 {
     public class ComplexTypeModelDescription : ModelDescription
     {

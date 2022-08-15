@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataManager.Api.Models
+namespace RetailManager.Api.Models
 {
     // Models returned by AccountController actions.
 

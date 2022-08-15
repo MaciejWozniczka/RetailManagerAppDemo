@@ -1,4 +1,4 @@
-namespace DataManager.Api.Areas.HelpPage.ModelDescriptions
+namespace RetailManager.Api.Areas.HelpPage.ModelDescriptions
 {
     public class KeyValuePairModelDescription : ModelDescription
     {
