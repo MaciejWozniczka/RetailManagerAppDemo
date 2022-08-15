@@ -1,5 +1,6 @@
 ﻿using Caliburn.Micro;
 using RetailManager.DesktopUI.Helpers;
+using RetailManager.DesktopUI.Library.Api;
 using System;
 using System.Threading.Tasks;
 
@@ -88,6 +89,9 @@ namespace RetailManager.DesktopUI.ViewModels
             {
                 ErrorMessage = "";
                 var result = await _apiHelper.Authenticate(UserName, Password);
+
+                // Get more data
+                await _apiHelper.GetLoggedInUserInfo(result.Access_Token);
             }
             catch (Exception ex)
             {
