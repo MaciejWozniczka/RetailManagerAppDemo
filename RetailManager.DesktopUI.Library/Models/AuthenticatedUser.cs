@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RetailManager.DesktopUI.Models
+namespace RetailManager.DesktopUI.Library.Models
 {
     public class AuthenticatedUser
     {
